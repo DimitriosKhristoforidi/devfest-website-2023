@@ -40,7 +40,7 @@
   </v-main>
 </template>
   
-  <script>
+<script>
 import scheduleJSON from "@/assets/data/schedule.json";
 import scheduleDetailsVue from '@/components/schedule/scheduleDetails.vue';
 
@@ -56,5 +56,5 @@ export default {
 };
 </script>
   
-  <style>
+<style>
 </style>

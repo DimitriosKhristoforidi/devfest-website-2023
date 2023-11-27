@@ -1,12 +1,8 @@
 {
   "hosting": {
     "public": "dist",
-    "site":"devfest23-demo",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ],
+    "site": "gdg-bishkek-2023",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
     "rewrites": [
       {
         "source": "**",

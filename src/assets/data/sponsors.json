@@ -1,58 +1,62 @@
 [
-    {
-        "category_name": "Title Sponsors",
-        "sponsors": [
-            {
-                "name":"Google For Developers",
-                "link": "https://developers.google.com",
-                "logo": "googlefordevelopers.svg"   
-            },
-            {
-                "name":"Google For Developers",
-                "link": "https://developers.google.com",
-                "logo": "googlefordevelopers.svg"   
-            },
-            {
-                "name":"Google For Developers",
-                "link": "https://developers.google.com",
-                "logo": "googlefordevelopers.svg"   
-            },
-            {
-                "name":"Google For Developers",
-                "link": "https://developers.google.com",
-                "logo": "googlefordevelopers.svg"   
-            }
-        ]
-    },
-    {
-        "category_name": "Venue Sponsors",
-        "sponsors": [
-            {
-                "name":"Google For Developers",
-                "link": "https://developers.google.com",
-                "logo": "googlefordevelopers.svg"   
-            },
-            {
-                "name":"Google For Developers",
-                "link": "https://developers.google.com",
-                "logo": "googlefordevelopers.svg"   
-            },
-            {
-                "name":"Google For Developers",
-                "link": "https://developers.google.com",
-                "logo": "googlefordevelopers.svg"   
-            }
-        ]
-    },
-    {
-        "category_name": "Template Partner",
-        "sponsors": [
-            {
-                "name":"TechFerment",
-                "link": "https://techferment.com",
-                "logo": "techferment.svg"   
-            }
-        ]
-    }
-
+  {
+    "category_name": "Organizers",
+    "sponsors": [
+      {
+        "name": "GDG Bishkek",
+        "link": "https://www.optimabank.kg/",
+        "logo": "gdg.png"
+      }
+    ]
+  },
+  {
+    "category_name": "Co-organizers",
+    "sponsors": [
+      {
+        "name": "Mad Devs",
+        "link": "https://maddevs.io/",
+        "logo": "maddevs.png"
+      }
+    ]
+  },
+  {
+    "category_name": "Gold Sponsors",
+    "sponsors": [
+      {
+        "name": "Optima Bank",
+        "link": "https://www.optimabank.kg/",
+        "logo": "optima.png"
+      }
+    ]
+  },
+  {
+    "category_name": "Silver Sponsors",
+    "sponsors": [
+      {
+        "name": "Etwiklerburg",
+        "link": "https://entwicklerburg.com/",
+        "logo": "entwicklenburg.png"
+      },
+      {
+        "name": "Interkit",
+        "link": "https://interkit.io/",
+        "logo": "interkit.png"
+      }
+    ]
+  },
+  {
+    "category_name": "Partners",
+    "sponsors": [
+      {
+        "name": "Jet Brains",
+        "link": "https://www.jetbrains.com/",
+        "logo": "jb.png"
+      },
+      {
+        "name": "KSSDA",
+        "link": "https://www.instagram.com/kssda.kg",
+        "logo": "kssda.png"
+      }
+    ]
+  }
 ]

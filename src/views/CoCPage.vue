@@ -7,7 +7,7 @@
             Code of Conduct
           </p>
           <p class="my-0 mb-8 h1-subheading google-font">
-            All participants of DevFest India 2023 event, online attendees,
+            All participants of {{ devfestInfo.name }}, online attendees,
             event staff, and speakers, must abide by the following policy:
           </p>
           <v-container fluid class="ma-0 pa-0">
@@ -37,9 +37,11 @@
 </template>
 
 <script>
+import devfestJSON from "@/assets/data/devfests.json";
 export default {
   name: "CodeOfConduct",
   data: () => ({
+    devfestInfo: devfestJSON,
     cocData: [
       {
         name: "Be nice to the other attendees",

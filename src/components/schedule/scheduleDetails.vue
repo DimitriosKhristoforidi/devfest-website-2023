@@ -9,13 +9,13 @@
     >
       <v-col md="2" cols="3" class="text-right my-0 py-0">
         <p style="font-size: 110%" class="mb-0 google-font">
-          {{ item.startTime }} PM
+          {{ getSessionData(item.session).startTime }}
         </p>
         <p style="font-size: 70%" class="ma-0 google-font">
-          {{ item.endTime }} PM
+          {{ getSessionData(item.session).endTime }}
         </p>
         <p class="mt-1 google-font" style="font-size: 60%">
-          <b style="color: grey">GMT (+05:30)</b>
+          <b style="color: grey">GMT+6</b>
         </p>
       </v-col>
       <v-col
@@ -42,7 +42,7 @@ export default {
   }),
   methods: {
     getSessionData(id) {
-      return this.sessionsInfo.filter((sd) => sd.id == id)[0];
+      return this.sessionsInfo.find((sd) => sd.id === id);
     },
   },
 };

@@ -8,10 +8,10 @@
             DevFest Badge
           </p>
           <p class="my-0 mb-8 h1-subheading google-font">
-            Now that you are here, how about personalising your DevFest India
+            Now that you are here, how about personalising your DevFest Bishkek
             2023 profile? Upload an image and generate a personalised badge with
-            the DevFest India 2023 frame. Also share your image using
-            #DevFestIndia on different social platforms.
+            the DevFest Bishkek 2023 frame. Also share your image using
+            #DevFestBishkek on different social platforms.
           </p>
         </v-col>
       </v-row>
@@ -28,10 +28,10 @@
               DevFest Badge
             </p>
             <p class="google-font" style="font-size: 18px">
-              Now that you are here, how about personalising your DevFest India
+              Now that you are here, how about personalising your DevFest Bishkek
               2023 profile? Upload an image and generate a personalised badge
-              with the DevFest India 2023 frame. Also share your image using
-              #DevFestIndia on different social platforms.
+              with the DevFest Bishkek 2023 frame. Also share your image using
+              #DevFestBishkek on different social platforms.
             </p>
           </div>
           <div class="input">
@@ -129,6 +129,8 @@
 
 <script>
 import gdgImage from "@/assets/img/badge.png";
+import devfestJSON from "@/assets/data/devfests.json";
+
 export default {
   name: "BadgeComponent",
   data: () => ({
@@ -139,9 +141,10 @@ export default {
     shapeData: "original",
     ctx: null,
     banner: null,
+    devfestInfo: devfestJSON,
   }),
   created() {
-    document.title = "Badges | DevFest India 2023";
+    document.title = `Badges | ${this.devfestInfo.name}`;
   },
   methods: {
     upload(e) {
@@ -241,7 +244,7 @@ export default {
     download() {
       const a = document.createElement("a");
       const url = this.canvas.toDataURL("image/png;base64");
-      a.download = "#DevFestIndia_badge.png";
+      a.download = "#DevFestBishkek_badge.png";
       a.href = url;
       a.click();
     },

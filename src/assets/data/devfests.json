@@ -1,25 +1,22 @@
 {
-  "name":"DevFest Jakarta",
-  "cover_image":"cover.png",
+  "name": "DevFest Bishkek 2023",
+  "cover_image": "cover.png",
   "desc": {
     "short": "An annual event hosted by the Google Developers Group across the world to bring the technology closer to the developers. It is an all day developer conference where we aim to focus on multiple technologies through lightning talks, sessions, workshops, etc.",
     "long": "An annual event hosted by the Google Developers Group across the world to bring the technology closer to the developers. It is an all day developer conference where we aim to focus on multiple technologies through lightning talks, sessions, workshops, etc.An annual event hosted by the Google Developers Group across the world to bring the technology closer to the developers. It is an all day developer conference where we aim to focus on multiple technologies through lightning talks, sessions, workshops, etc."
   },
-  "hashtags": [
-    "DevFest2023",
-    "CommunityName"
-  ],
-  "date": "Oct 23, 2023",
-  "time": "10 am IST",
+  "hashtags": ["DevFest2023", "CommunityName"],
+  "date": "Dec 17, 2023",
+  "time": "10:30 am GMT+6",
   "venue": {
-    "name": "Hotel Name",
+    "name": "AUCA",
     "address": "23b, Morden Town",
     "city": "",
     "pincode": "",
     "map": ""
   },
   "registration": {
-    "link":"https://techferment.com",
+    "link": "https://m.ticketon.kz/event/devfest-2023-bishkek-kg",
     "status": "1"
   },
   "call_for_speakers": {
@@ -29,28 +26,28 @@
   },
   "stats": [
     {
-      "name": "Tracks",
-      "value": "4"
-    },
-    {
-      "name": "Speakers",
-      "value": "20+"
-    },
-    {
-      "name": "Participants",
-      "value": "500+"
-    },
-    {
-      "name": "Sessions",
-      "value": "20"
-    },
-    {
       "name": "Day",
       "value": "1"
     },
     {
-      "name": "Workshops",
-      "value": "5"
+      "name": "Working areas",
+      "value": "3"
+    },
+    {
+      "name": "Tracks",
+      "value": "9"
+    },
+    {
+      "name": "Sessions",
+      "value": "17"
+    },
+    {
+      "name": "Speakers",
+      "value": "18"
+    },
+    {
+      "name": "Participants",
+      "value": "500+"
     }
   ],
   "what_to_expect": [

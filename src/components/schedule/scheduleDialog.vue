@@ -44,9 +44,9 @@
                   ><v-icon small>mdi-calendar-month</v-icon>
                   {{ data.date }}</span
                 >
-                <span v-if="data.time.length" class="mr-3"
+                <span v-if="data.startTime" class="mr-3"
                   ><v-icon small>mdi-clock-outline</v-icon>
-                  {{ data.time }}</span
+                  {{ data.startTime }} to {{ data.endTime }} (GMT+6)</span
                 >
 
                 <span>{{ data.timeDuration }} Min</span>
@@ -108,8 +108,8 @@
                             v-if="itemp.company.designation"
                           >
                             {{ itemp.company.designation }}
-                            <span v-if="itemp.company.name">,</span>
-                            {{ itemp.company.name }}
+                            <span v-if="itemp.company?.name">,</span>
+                            {{ itemp.company?.name }}
                           </v-list-item-subtitle>
                         </v-list-item-content>
                       </v-list-item>
@@ -143,8 +143,10 @@ export default {
   },
   mounted() {
     this.speakers = [];
-    this.speakers = this.speakersInfo.filter((obj) =>
-      this.data.speakers.find((x) => x.toString() === obj.id)
+    this.speakers = this.data.speakers.map(
+      item => this.speakersInfo.find(
+        speaker => speaker.id === item
+      )
     );
   },
   methods: {

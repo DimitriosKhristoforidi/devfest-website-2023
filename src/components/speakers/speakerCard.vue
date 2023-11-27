@@ -18,7 +18,7 @@
         <p class="mb-1 mt-4" style="font-weight: 400">
           {{ item.name }}
         </p>
-        <p class="my-0" style="font-size: 80%">{{ item.company.name }}</p>
+        <p class="my-0" style="font-size: 80%">{{ item.company?.name }}</p>
       </div>
     </template>
     <v-card v-if="dialog" style="border-radius: 12px">
@@ -47,7 +47,7 @@
                       style="font-size: 110%"
                     >
                       <p class="mb-0">
-                        {{ item.company.name }}, {{ item.company.designation }}
+                        {{ item.company?.name }}, {{ item.company?.designation }}
                       </p>
                       <span>{{ item.community_title }}</span>
                     </v-list-item-subtitle>
@@ -58,7 +58,7 @@
           </v-row>
           <v-row>
             <v-col md="12" cols="12" class="px-md-8 px-5">
-              <div v-if="item.bio.length">
+              <div v-if="item.bio?.length">
                 <p class="mb-0" style="font-size: 110%"><b>Bio</b></p>
                 <p class="" style="font-size: 110%">
                   {{ item.bio }}

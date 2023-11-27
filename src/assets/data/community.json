@@ -1,14 +1,14 @@
 {
-    "community_name": "GDG Jakarta",
-    "city": "Jakarta",
-    "community_url": "https://gdg.community.dev/gdg-jakarta",
-    "short_desc": "",
-    "community_hashtag":"GDGJakarta",
-    "social_links":{
-        "twitter":"a",
-        "linkedin": "v",
-        "instagram":"x",
-        "facebook": "d",
-        "youtube": "e"
-    }
+  "community_name": "GDG Bishkek",
+  "city": "Bishkek",
+  "community_url": "https://gdg.community.dev/gdg-bishkek/",
+  "short_desc": "",
+  "community_hashtag": "GDGBishkek",
+  "social_links": {
+    "twitter": "a",
+    "linkedin": "https://www.linkedin.com/company/gdg-bishkek",
+    "instagram": "https://www.instagram.com/gdg.bishkek/",
+    "facebook": "d",
+    "youtube": "e"
+  }
 }

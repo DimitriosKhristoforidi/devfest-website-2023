@@ -1,62 +1,189 @@
 [
-    {
-        "id": "1001",
-        "slide": "",
-        "title": "Session 1",
-        "description": "In this session, we will help you get kickstarted with web, starting from what is the current state of web in India, challenges and opportunities, Roadmap, Google's web technologies, getting started with e-commerce application. We will also see, how we can extend the functionalities of a web-app with Authentication, Database and Hosting using Firebase. You will also learn frequently asked interview questions.",
-        "track": "Web",
-        "link": "https://www.youtube.com/embed/SYQa0pqoPWA?si=PTsrvHcgN23ffbYJ",
-        "time": "06:00 PM to 06:35 PM (IST)",
-        "format": "Day 1",
-        "date": "Oct 22, 2021",
-        "timeDuration": "40",
-        "speakers": [
-            101
-        ]
-    },
-    {
-        "id": "1002",
-        "slide": "",
-        "title": "Session 2",
-        "description": "In this session, we will help you get kickstarted with web, starting from what is the current state of web in India, challenges and opportunities, Roadmap, Google's web technologies, getting started with e-commerce application. We will also see, how we can extend the functionalities of a web-app with Authentication, Database and Hosting using Firebase. You will also learn frequently asked interview questions.",
-        "track": "Web",
-        "link": "",
-        "time": "06:00 PM to 06:35 PM (IST)",
-        "format": "Day 1",
-        "date": "Oct 22, 2021",
-        "timeDuration": "40",
-        "speakers": [
-            101
-        ]
-    },
-    {
-        "id": "1003",
-        "slide": "",
-        "title": "Session 3",
-        "description": "In this session, we will help you get kickstarted with web, starting from what is the current state of web in India, challenges and opportunities, Roadmap, Google's web technologies, getting started with e-commerce application. We will also see, how we can extend the functionalities of a web-app with Authentication, Database and Hosting using Firebase. You will also learn frequently asked interview questions.",
-        "track": "Web",
-        "link": "",
-        "time": "06:00 PM to 06:35 PM (IST)",
-        "format": "Day 1",
-        "date": "Oct 22, 2021",
-        "timeDuration": "40",
-        "speakers": [
-            102, 101
-        ]
-    },
-    {
-        "id": "1004",
-        "slide": "",
-        "title": "Session 4",
-        "description": "In this session, we will help you get kickstarted with web, starting from what is the current state of web in India, challenges and opportunities, Roadmap, Google's web technologies, getting started with e-commerce application. We will also see, how we can extend the functionalities of a web-app with Authentication, Database and Hosting using Firebase. You will also learn frequently asked interview questions.",
-        "track": "Web",
-        "link": "",
-        "time": "06:00 PM to 06:35 PM (IST)",
-        "format": "Day 1",
-        "date": "Oct 22, 2021",
-        "timeDuration": "40",
-        "speakers": [
-            102
-        ]
-    }
+  {
+    "id": 0,
+    "slide": "",
+    "title": "AI Image search: CameraX with machine learning on Alibaba.com",
+    "startTime": "11:00 AM",
+    "endTime": "11:40 AM",
+    "format": "Day 1",
+    "date": "Dec 17, 2023",
+    "timeDuration": "40",
+    "speakers": [0]
+  },
+  {
+    "id": 1,
+    "slide": "",
+    "title": "CJM и UJM, опыт взаимодействия с продуктом",
+    "startTime": "11:00 AM",
+    "endTime": "11:40 AM",
+    "format": "Day 1",
+    "date": "Dec 17, 2023",
+    "timeDuration": "40",
+    "speakers": [1, 2]
+  },
+  {
+    "id": 2,
+    "slide": "",
+    "title": "Эмоциональный интеллект в IT: Почему это важно и как разработчики могут извлечь пользу",
+    "startTime": "11:55 AM",
+    "endTime": "12:35 PM",
+    "format": "Day 1",
+    "date": "Dec 17, 2023",
+    "timeDuration": "40",
+    "speakers": [3]
+  },
+  {
+    "id": 3,
+    "slide": "",
+    "title": "Дизайн-Система - Основа Качественного Мобильного Приложения",
+    "startTime": "11:55 AM",
+    "endTime": "12:35 PM",
+    "format": "Day 1",
+    "date": "Dec 17, 2023",
+    "timeDuration": "40",
+    "speakers": [4]
+  },
+  {
+    "id": 4,
+    "slide": "",
+    "title": "Scrum workshop",
+    "startTime": "11:55 AM",
+    "endTime": "12:35 PM",
+    "format": "Day 1",
+    "date": "Dec 17, 2023",
+    "timeDuration": "40",
+    "speakers": [5]
+  },
+  {
+    "id": 5,
+    "slide": "",
+    "title": "Мечтают ли электромобили об электроглазах: Real-time object detection в автономном вождении",
+    "startTime": "12:50 AM",
+    "endTime": "01:30 PM",
+    "format": "Day 1",
+    "date": "Dec 17, 2023",
+    "timeDuration": "40",
+    "speakers": [6, 7]
+  },
+  {
+    "id": 6,
+    "slide": "",
+    "title": "Interkit",
+    "startTime": "12:50 AM",
+    "endTime": "01:30 PM",
+    "format": "Day 1",
+    "date": "Dec 17, 2023",
+    "timeDuration": "40",
+    "speakers": [8]
+  },
+  {
+    "id": 7,
+    "slide": "",
+    "title": "Стандарты как вид ментальной контрацепции",
+    "startTime": "12:50 AM",
+    "endTime": "01:30 PM",
+    "format": "Day 1",
+    "date": "Dec 17, 2023",
+    "timeDuration": "40",
+    "speakers": [9]
+  },
+  {
+    "id": 8,
+    "slide": "",
+    "title": "Тилек Мамутов",
+    "startTime": "02:40 AM",
+    "endTime": "03:20 PM",
+    "format": "Day 1",
+    "date": "Dec 17, 2023",
+    "timeDuration": "40",
+    "speakers": [10]
+  },
+  {
+    "id": 9,
+    "slide": "",
+    "title": "David",
+    "startTime": "02:40 AM",
+    "endTime": "03:20 PM",
+    "format": "Day 1",
+    "date": "Dec 17, 2023",
+    "timeDuration": "40",
+    "speakers": [11]
+  },
+  {
+    "id": 10,
+    "slide": "",
+    "title": "Почему разработчики - больше не молчаливые ребята в капюшонах?",
+    "startTime": "02:40 AM",
+    "endTime": "03:20 PM",
+    "format": "Day 1",
+    "date": "Dec 17, 2023",
+    "timeDuration": "40",
+    "speakers": [12]
+  },
+  {
+    "id": 11,
+    "slide": "",
+    "title": "Optima",
+    "startTime": "03:35 AM",
+    "endTime": "04:15 PM",
+    "format": "Day 1",
+    "date": "Dec 17, 2023",
+    "timeDuration": "40",
+    "speakers": [13]
+  },
+  {
+    "id": 12,
+    "slide": "",
+    "title": "Тимлидство: уроки прикладного менеджмента для инженеров и аналитиков",
+    "startTime": "03:35 AM",
+    "endTime": "04:15 PM",
+    "format": "Day 1",
+    "date": "Dec 17, 2023",
+    "timeDuration": "40",
+    "speakers": [14]
+  },
+  {
+    "id": 13,
+    "slide": "",
+    "title": "Черная дыра разработки МВП и как возможно ее избежать",
+    "startTime": "03:35 AM",
+    "endTime": "04:15 PM",
+    "format": "Day 1",
+    "date": "Dec 17, 2023",
+    "timeDuration": "40",
+    "speakers": [15]
+  },
+  {
+    "id": 14,
+    "slide": "",
+    "title": "Enhancing Developer Experience",
+    "startTime": "04:50 AM",
+    "endTime": "05:30 PM",
+    "format": "Day 1",
+    "date": "Dec 17, 2023",
+    "timeDuration": "40",
+    "speakers": [16]
+  },
+  {
+    "id": 15,
+    "slide": "",
+    "title": "Готовим стартап из того что есть в холодильнике",
+    "startTime": "04:50 AM",
+    "endTime": "05:30 PM",
+    "format": "Day 1",
+    "date": "Dec 17, 2023",
+    "timeDuration": "40",
+    "speakers": [17]
+  },
+  {
+    "id": 16,
+    "slide": "",
+    "title": "Workshop: Начинаем с Cypress",
+    "startTime": "04:50 AM",
+    "endTime": "05:30 PM",
+    "format": "Day 1",
+    "date": "Dec 17, 2023",
+    "timeDuration": "40",
+    "speakers": [18]
+  }
 ]

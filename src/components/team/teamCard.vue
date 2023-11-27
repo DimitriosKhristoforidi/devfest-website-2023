@@ -61,7 +61,7 @@
           </v-row>
           <v-row>
             <v-col md="12" cols="12" class="px-md-8 px-5">
-              <div v-if="item.bio.length">
+              <div v-if="item.bio?.length">
                 <p class="mb-0" style="font-size: 110%"><b>Bio</b></p>
                 <p class="" style="font-size: 110%">
                   {{ item.bio }}
