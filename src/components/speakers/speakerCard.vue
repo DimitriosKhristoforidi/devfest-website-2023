@@ -70,7 +70,7 @@
                 :item="item.social"
               />
 
-              <div v-if="speakerSessions.length" class="mt-6">
+              <div v-if="speakerSessions.length">
                 <p class="mb-0">
                   <span v-if="speakerSessions.length>1"><b>Sessions</b></span>
                   <span v-else><b>Session</b></span>

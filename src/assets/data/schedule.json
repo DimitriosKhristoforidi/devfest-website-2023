@@ -4,55 +4,40 @@
     "date": "Dec 17",
     "schedule": [
       {
-        "session": 0
+        "id": 0,
+        "startTime": "11:00 AM",
+        "endTime": "11:40 AM",
+        "sessions": [0, 123, 1]
       },
       {
-        "session": 1
+        "id": 1,
+        "startTime": "11:55 AM",
+        "endTime": "12:35 PM",
+        "sessions": [2, 3, 4]
       },
       {
-        "session": 2
+        "id": 2,
+        "startTime": "12:50 PM",
+        "endTime": "01:30 PM",
+        "sessions": [5, 6, 7]
       },
       {
-        "session": 3
+        "id": 3,
+        "startTime": "02:40 PM",
+        "endTime": "03:20 PM",
+        "sessions": [8, 9, 10]
       },
       {
-        "session": 4
+        "id": 4,
+        "startTime": "03:35 PM",
+        "endTime": "04:15 PM",
+        "sessions": [11, 12, 13]
       },
       {
-        "session": 5
-      },
-      {
-        "session": 6
-      },
-      {
-        "session": 7
-      },
-      {
-        "session": 8
-      },
-      {
-        "session": 9
-      },
-      {
-        "session": 10
-      },
-      {
-        "session": 11
-      },
-      {
-        "session": 12
-      },
-      {
-        "session": 13
-      },
-      {
-        "session": 14
-      },
-      {
-        "session": 15
-      },
-      {
-        "session": 16
+        "id": 5,
+        "startTime": "04:50 PM",
+        "endTime": "05:30 PM",
+        "sessions": [14, 15, 16]
       }
     ]
   }

@@ -23,15 +23,23 @@
               slider-color="primary"
               centered
             >
-              <v-tab v-for="(item, index) in scheduleInfo" :key="index" >{{
-                item.date
-              }}</v-tab>
+              <v-tab v-for="(item, index) in scheduleInfo" :key="index" >
+                {{ item.date }}
+              </v-tab>
             </v-tabs>
           </v-toolbar>
-
-          <v-tabs-items v-model="model" continuous class="mt-5 py-0" style="background-color: white;border-radius: 15px;">
-            <v-tab-item v-for="(item, index) in scheduleInfo" :key="index" class="pa-0 ma-0" >
-                <scheduleDetailsVue :data="item"/>
+          <v-tabs-items
+            v-model="model"
+            continuous
+            class="mt-5 py-0"
+            style="background-color: white; border-radius: 15px;"
+          >
+            <v-tab-item
+              v-for="(item, index) in scheduleInfo"
+              :key="index"
+              class="pa-0 ma-0"
+            >
+              <scheduleDetailsVue :data="item"/>
             </v-tab-item>
           </v-tabs-items>
         </v-col>

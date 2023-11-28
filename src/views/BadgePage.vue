@@ -83,12 +83,6 @@
                 @click="changeShape('Square')"
                 >Square</v-btn
               >
-              <v-btn
-                class="mx-0 pb-0 px-5"
-                value="circle"
-                @click="changeShape('circle')"
-                >Circle</v-btn
-              >
             </v-btn-toggle>
           </div>
           <p class="mt-8 mb-15 mb-md-0">

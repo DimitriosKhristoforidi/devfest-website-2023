@@ -1,7 +1,7 @@
 <template>
-  <v-dialog v-model="dialog" width="800" scrollable>
+  <v-dialog v-if="data" v-model="dialog" width="800" scrollable>
     <template v-slot:activator="{ on }">
-      <div v-on="on" style="cursor: pointer" class="py-3 ma-1 fill-height">
+      <div v-on="on" style="cursor: pointer" class="py-3 px-3 px-md-0 ma-1 fill-height">
         <p class="mb-0 h1-subheading google-font">{{ data.title }}</p>
 
         <span v-for="(itemp, indexp) in speakers" :key="indexp">
@@ -27,34 +27,34 @@
         :src="data.link"
       >
       </iframe>
-      <v-card-text class="px-5 google-font mt-n0">
+      <v-card-text class="px-5 google-font mt-n0 pt-5 pb-0">
         <v-container fluid>
           <v-row>
             
             <v-col md="12" cols="12">
               <p
-              class="my-2 mt-3"
-              style="text-align: left;font-size:25px;font-weight:500;color:black'line-height:15px"
-            >
-              {{ data.title }} Details
-            </p>
-              <p style="font-size: 110%">
-                <!-- <span class="mr-3">{{item.timeDuration}} Min</span> -->
-                <span v-if="data.date.length" class="mr-3"
-                  ><v-icon small>mdi-calendar-month</v-icon>
-                  {{ data.date }}</span
-                >
-                <span v-if="data.startTime" class="mr-3"
-                  ><v-icon small>mdi-clock-outline</v-icon>
-                  {{ data.startTime }} to {{ data.endTime }} (GMT+6)</span
-                >
+                class="my-3 mb-5 font-weight-medium text-black"
+                style="font-size:25px; line-height:25px;"
+              >
+                {{ data.title }}
+              </p>
+              <!-- <span class="mr-3">{{item.timeDuration}} Min</span> -->
+              <p v-if="data.date.length" class="mb-1">
+                <v-icon small>mdi-calendar-month</v-icon>
+                {{ data.date }}</p
+              >
 
-                <span>{{ data.timeDuration }} Min</span>
+              <p v-if="data.startTime" class="mb-1">
+                <v-icon small>mdi-clock-outline</v-icon>
+                {{ data.startTime }} to {{ data.endTime }} (GMT+6)
               </p>
 
+              <p class="mb-1">{{ data.timeDuration }} Min</p>
+
               <p
-                class="mt-10"
-                style="font-size: 22px; color: black; font-weight: 500"
+                v-if="data.description"
+                class="mt-10 font-weight-medium"
+                style="font-size: 22px; color: black;"
               >
                 Overview
               </p>
@@ -121,10 +121,6 @@
           </v-row>
         </v-container>
       </v-card-text>
-      <v-card-actions>
-        <v-spacer></v-spacer>
-        <v-btn aria-label="close" text @click="dialog = false">Close</v-btn>
-      </v-card-actions>
     </v-card>
   </v-dialog>
 </template>
@@ -143,11 +139,12 @@ export default {
   },
   mounted() {
     this.speakers = [];
-    this.speakers = this.data.speakers.map(
-      item => this.speakersInfo.find(
-        speaker => speaker.id === item
-      )
-    );
+    if(this.data)
+      this.speakers = this.data.speakers.map(
+        item => this.speakersInfo.find(
+          speaker => speaker.id === item
+        )
+      );
   },
   methods: {
     getImgUrl(pic, defaultimage = "avatar.jpg") {
