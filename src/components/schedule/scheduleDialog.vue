@@ -2,10 +2,15 @@
   <v-dialog v-if="data" v-model="dialog" width="800" scrollable>
     <template v-slot:activator="{ on }">
       <div v-on="on" style="cursor: pointer" class="py-3 px-3 px-md-0 ma-1 fill-height">
+        <span>
+          <v-chip class="mb-2 d-md-none" outlined small>
+            {{ getRoomName(data.room) }}
+          </v-chip>
+        </span>
         <p class="mb-0 h1-subheading google-font">{{ data.title }}</p>
 
         <span v-for="(itemp, indexp) in speakers" :key="indexp">
-          <v-chip pill class="mt-2 mr-2" outlined small>
+          <v-chip pill class="mt-2 mr-2" outlined>
             <v-avatar left>
               <img :src="getImgUrl(itemp.image)" class="image-wrapper" />
             </v-avatar>
@@ -38,15 +43,19 @@
               >
                 {{ data.title }}
               </p>
-              <!-- <span class="mr-3">{{item.timeDuration}} Min</span> -->
               <p v-if="data.date.length" class="mb-1">
                 <v-icon small>mdi-calendar-month</v-icon>
-                {{ data.date }}</p
-              >
+                {{ data.date }}
+              </p>
 
               <p v-if="data.startTime" class="mb-1">
                 <v-icon small>mdi-clock-outline</v-icon>
                 {{ data.startTime }} to {{ data.endTime }} (GMT+6)
+              </p>
+
+              <p v-if="data.room" class="mb-1">
+                <v-icon small>mdi-map-marker</v-icon>
+                {{ getRoomName(data.room) }}
               </p>
 
               <p class="mb-1">{{ data.timeDuration }} Min</p>
@@ -107,8 +116,6 @@
                             style="font-size: 105%"
                             v-if="itemp.company.designation"
                           >
-                            {{ itemp.company.designation }}
-                            <span v-if="itemp.company?.name">,</span>
                             {{ itemp.company?.name }}
                           </v-list-item-subtitle>
                         </v-list-item-content>
@@ -127,6 +134,7 @@
   
   <script>
 import speakersJSON from "@/assets/data/speakers.json";
+import roomsJSON from "@/assets/data/rooms.json";
 export default {
   components: {},
   props: ["data"],
@@ -134,6 +142,7 @@ export default {
     return {
       dialog: false,
       speakersInfo: speakersJSON,
+      roomsInfo: roomsJSON,
       speakers: [],
     };
   },
@@ -153,6 +162,9 @@ export default {
       } else {
         return require("@/assets/img/common/" + defaultimage);
       }
+    },
+    getRoomName(id) {
+      return this.roomsInfo.find(room => room.id === id).name
     },
   },
   filters: {
