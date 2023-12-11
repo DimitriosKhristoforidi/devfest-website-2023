@@ -6,7 +6,7 @@
         style="cursor: pointer"
         class="py-3 px-3 px-md-0 ma-1 fill-height"
       >
-        <span>
+        <span v-if="data.room !== undefined">
           <v-chip class="mb-2 d-md-none" outlined small>
             {{ getRoomName(data.room) }}
           </v-chip>
