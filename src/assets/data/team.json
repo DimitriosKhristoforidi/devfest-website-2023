@@ -3,8 +3,7 @@
     "id": "0",
     "name": "Kalicha Malabekova",
     "company": {
-      "name": "BTS Digital",
-      "designation": "Delivery manager"
+      "name": "BTS Digital"
     },
     "image": "",
     "bio": "Kalicha is a product delivery manager at a growing startup and IT company in Kazakhstan(remote) and also GDG Bishkek co-lead. She has bachelor's degree in Hardware Engineering from Kyrgyz State Technical University in 2019. Kalicha started her career from being a project manager assistant and she has more than 4 years of successful experience. She also loves to organize IT events, which can help to build the hard IT community in Kyrgyzstan",
@@ -17,8 +16,7 @@
     "id": "1",
     "name": "Maria Zaichenko",
     "company": {
-      "name": "Mad Devs",
-      "designation": "GDG Organizer"
+      "name": "Mad Devs"
     },
     "image": "",
     "type": "Core"
@@ -27,8 +25,7 @@
     "id": "2",
     "name": "Feruza Asanova",
     "company": {
-      "name": "Mancho Devs",
-      "designation": "GDG Organizer"
+      "name": "Mancho Devs"
     },
     "image": "",
     "type": "Core"
@@ -37,8 +34,25 @@
     "id": "3",
     "name": "Aizirek Bolot",
     "company": {
-      "name": "Attract Group",
-      "designation": "Project Manager"
+      "name": "Attract Group"
+    },
+    "image": "",
+    "type": "Core"
+  },
+  {
+    "id": "4",
+    "name": "Dmitrii Khristoforidi",
+    "company": {
+      "name": "EPAM Systems"
+    },
+    "image": "dmitrii.jpg",
+    "type": "Core"
+  },
+  {
+    "id": "5",
+    "name": "Maria Zaichenko",
+    "company": {
+      "name": ""
     },
     "image": "",
     "type": "Core"

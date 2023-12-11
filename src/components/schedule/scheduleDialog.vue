@@ -1,7 +1,11 @@
 <template>
   <v-dialog v-if="data" v-model="dialog" width="800" scrollable>
     <template v-slot:activator="{ on }">
-      <div v-on="on" style="cursor: pointer" class="py-3 px-3 px-md-0 ma-1 fill-height">
+      <div
+        v-on="on"
+        style="cursor: pointer"
+        class="py-3 px-3 px-md-0 ma-1 fill-height"
+      >
         <span>
           <v-chip class="mb-2 d-md-none" outlined small>
             {{ getRoomName(data.room) }}
@@ -35,11 +39,10 @@
       <v-card-text class="px-5 google-font mt-n0 pt-5 pb-0">
         <v-container fluid>
           <v-row>
-            
             <v-col md="12" cols="12">
               <p
                 class="my-3 mb-5 font-weight-medium text-black"
-                style="font-size:25px; line-height:25px;"
+                style="font-size: 25px; line-height: 25px"
               >
                 {{ data.title }}
               </p>
@@ -63,7 +66,7 @@
               <p
                 v-if="data.description"
                 class="mt-10 font-weight-medium"
-                style="font-size: 22px; color: black;"
+                style="font-size: 22px; color: black"
               >
                 Overview
               </p>
@@ -114,7 +117,6 @@
                           <v-list-item-subtitle
                             class="google-font text-wrap"
                             style="font-size: 105%"
-                            v-if="itemp.company.designation"
                           >
                             {{ itemp.company?.name }}
                           </v-list-item-subtitle>
@@ -131,8 +133,8 @@
     </v-card>
   </v-dialog>
 </template>
-  
-  <script>
+
+<script>
 import speakersJSON from "@/assets/data/speakers.json";
 import roomsJSON from "@/assets/data/rooms.json";
 export default {
@@ -148,11 +150,9 @@ export default {
   },
   mounted() {
     this.speakers = [];
-    if(this.data)
-      this.speakers = this.data.speakers.map(
-        item => this.speakersInfo.find(
-          speaker => speaker.id === item
-        )
+    if (this.data)
+      this.speakers = this.data.speakers?.map((item) =>
+        this.speakersInfo.find((speaker) => speaker.id === item)
       );
   },
   methods: {
@@ -164,7 +164,7 @@ export default {
       }
     },
     getRoomName(id) {
-      return this.roomsInfo.find(room => room.id === id).name
+      return this.roomsInfo?.find((room) => room.id === id)?.name;
     },
   },
   filters: {
@@ -175,7 +175,7 @@ export default {
   },
 };
 </script>
-  <style scoped>
+<style scoped>
 .image-wrapper {
   object-fit: cover;
   object-position: center;

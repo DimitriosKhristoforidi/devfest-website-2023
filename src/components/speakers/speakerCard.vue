@@ -8,7 +8,7 @@
         v-ripple
         v-bind="attrs"
       >
-        <v-avatar size="100">
+        <v-avatar size="120">
           <v-img
             :src="getProfileImage(item.image)"
             :lazy-src="getProfileImage(item.image)"
@@ -47,7 +47,7 @@
                       style="font-size: 110%"
                     >
                       <p class="mb-0">
-                        {{ item.company?.name }}, {{ item.company?.designation }}
+                        {{ item.company?.name }}
                       </p>
                       <span>{{ item.community_title }}</span>
                     </v-list-item-subtitle>
@@ -72,7 +72,7 @@
 
               <div v-if="speakerSessions.length">
                 <p class="mb-0">
-                  <span v-if="speakerSessions.length>1"><b>Sessions</b></span>
+                  <span v-if="speakerSessions.length > 1"><b>Sessions</b></span>
                   <span v-else><b>Session</b></span>
                 </p>
                 <v-container fluid class="px-0">
@@ -84,9 +84,16 @@
                       v-for="(itemp, index) in speakerSessions"
                       :key="index"
                     >
-                      <div style="background-color: #E8F1FB;border-radius: 15px" class="pa-3" >
-                        <p style="font-size:120%" class="mb-0">{{ itemp.title }}</p>
-                        <v-chip x-small color="white">{{ itemp.timeDuration }} min</v-chip>
+                      <div
+                        style="background-color: #e8f1fb; border-radius: 15px"
+                        class="pa-3"
+                      >
+                        <p style="font-size: 120%" class="mb-0">
+                          {{ itemp.title }}
+                        </p>
+                        <v-chip x-small color="white"
+                          >{{ itemp.timeDuration }} min</v-chip
+                        >
                       </div>
                     </v-col>
                   </v-row>
@@ -108,8 +115,8 @@
     </v-card>
   </v-dialog>
 </template>
-    
-    <script>
+
+<script>
 import speakerSocialMediaVue from "./speakerSocialMedia.vue";
 import sessionsJSON from "@/assets/data/sessions.json";
 
@@ -141,7 +148,7 @@ export default {
       return require("@/assets/img/speakers/" + img);
     },
     getSessionsInfo(spid) {
-      this.speakerSessions = []
+      this.speakerSessions = [];
       this.sessionsInfo.forEach((session) => {
         if (session.speakers.includes(parseInt(spid))) {
           this.speakerSessions.push(session);

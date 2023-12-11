@@ -15,7 +15,7 @@
             you.
           </p>
         </v-col>
-        <v-col md="2" cols="6" sm="3" v-for="(item, index) in speakersInfo" :key="index">
+        <v-col cols="6" md="2" sm="3" v-for="(item, index) in speakersInfo" :key="index">
           <speakerCardVue :item="item"/>
         </v-col>
       </v-row>

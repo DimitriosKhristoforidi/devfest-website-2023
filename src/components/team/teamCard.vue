@@ -21,7 +21,12 @@
           </p>
           <p class="my-0" style="font-size: 80%">{{ item.company.name }}</p>
         </div>
-        <v-chip class="mt-n7" small :color="item.type=='Core'?'primary':'blue accent-1'">{{item.type}} Team</v-chip>
+        <v-chip
+          class="mt-n7"
+          small
+          :color="item.type == 'Core' ? 'primary' : 'blue accent-1'"
+          >{{ item.type }} Team</v-chip
+        >
       </div>
     </template>
     <v-card v-if="dialog" style="border-radius: 12px">
@@ -50,7 +55,7 @@
                       style="font-size: 110%"
                     >
                       <p class="mb-0">
-                        {{ item.company.name }}, {{ item.company.designation }}
+                        {{ item.company.name }}
                       </p>
                       <span>{{ item.community_title }}</span>
                     </v-list-item-subtitle>
@@ -88,8 +93,8 @@
     </v-card>
   </v-dialog>
 </template>
-      
-      <script>
+
+<script>
 import speakerSocialMediaVue from "@/components/speakers/speakerSocialMedia.vue";
 
 export default {

@@ -1,202 +1,182 @@
 [
   {
     "id": 0,
-    "name": "Yunpeng",
+    "name": "Yunpeng Li (李云鹏)",
     "company": {
-      "name": "Alibaba.com",
-      "designation": "Tech Lead"
+      "name": "Alibaba.com"
     },
-    "image": "",
-    "bio": ""
+    "image": "yunpeng.jpg",
+    "bio": "12 years of experience in the Internet industry. He specialize in Android architecture model design and Intellij plugin development. He is also working on improving APP performance and user experience. In recent years, he has been continuously invited to participate in large-scale technical conferences such as GDG DevFest, QCon, and InfoQ to promote Google Technologies/products. He wrote a book about the architecture model design, \"Mobile Development Architecture Combat\". The book introduces more than 10 kinds of popular mobile application development architecture models, including MVP, MVVM, plug-in, etc., to help the advanced developers of the architects to pave the way for learning. He also applied for 20+ patents and 1 software copyright as the first inventor."
   },
   {
     "id": 1,
     "name": "Салима Айтмамбетова",
     "company": {
-      "name": "Radcode Studio",
-      "designation": "Employee"
+      "name": "Radcode Studio"
     },
-    "image": "",
-    "bio": ""
+    "image": "salima.png",
+    "bio": "Сооснователь и ментор дизайн студии Radcode с опытом в дизайне более 9 лет, где 5 из них в сфере IT. Последние 3 года работала Senior Product Designer в компании  Growave. Создаю дизайн, основанный на принципах юзабилити, с помощью которого решаются многие задачи самого продукта и клиента. Участвовала в масштабном благотворительном проекте “Чырак”, где обучила более 3000 женщин Кыргызстана. Являюсь Членом открытого Жюри Фестиваля нового дизайна Среда."
   },
   {
     "id": 2,
     "name": "Наргиза Курбанова",
     "company": {
-      "name": "Radcode Studio",
-      "designation": "Employee"
+      "name": "Radcode Studio"
     },
-    "image": "",
-    "bio": ""
+    "image": "nargiza.png",
+    "bio": "Senior Product Designer с более чем 4-опытом. В ее работе понимание бизнес-целей и способность связать их с потребностями пользователей помогает ей создавать продукты и интерфейсы, которые действительно приносят ценность пользователям. За время работы ей удалось поработать над разнообразными и интересными проектами, включая Growave, Lily, Tele2, Buysell, Shrafy KG, UNO, Carbid и другие. Как сооснователь компании RADCODE, Наргиза активно внедряет свой опыт и знания, развивая следующее поколение дизайнеров. Ее преподавательская деятельность в области UX/UI дизайна мобильных приложений обучила более +50 студентов, которые успешно трудоустроились в такие компании как: Optima Bank, DreamGroup, Getmeva и другие."
   },
   {
     "id": 3,
     "name": "Айгуль Абдрахманова",
     "company": {
-      "name": "Kanda CA",
-      "designation": "HR"
+      "name": "Kanda CA"
     },
-    "image": "",
-    "bio": ""
+    "image": "aigul.jpg",
+    "bio": "Senior HR Manager Timely Soft и Talent Manager в Kanda CA с более чем 7 годами опыта в IT HR. В ее карьере основной акцент сделан на IT-рекрутинге, принципах Well-being, корпоративной культуре, а также управлении и развитии IT персонала. Айгуль является амбассадором Women Techmakers и членом GDG Bishkek, где активно поддерживает и продвигает технологическое сообщество."
   },
   {
     "id": 4,
     "name": "Александр Ким",
     "company": {
-      "name": "Aviasales",
-      "designation": "Employee"
+      "name": "Aviasales"
     },
-    "image": "",
-    "bio": ""
+    "image": "alex.jpeg",
+    "bio": "Меня зовут Саша, я работаю в компании Авиасейлс, в команде андроид платформы. Мы занимаемся архитектурой приложения, его перформансом, пилим дизайн систему и формулируем правила, и подходы к разработки для продуктовых разработчиков. В андроид разработке с 2019 года. Успел поработать над крипто-кошельком, над одним из крупнейших банков РФ, поделать магазин с +10млн скачиваний и оценкой 4,9 и еще много много где, но в конце концов нашел себя в лучшем поисковике дешевых авиабилетов♥️"
   },
   {
     "id": 5,
     "name": "Ажара Мамбетова",
     "company": {
-      "name": "IFC/World Bank",
-      "designation": "Employee"
+      "name": "IFC/World Bank"
     },
-    "image": "",
-    "bio": ""
+    "image": "azhar.png",
+    "bio": "Эксперт по цифровым финансовым услугам с практическим опытом в разработке финтех приложений более 12 лет. Автор и Ментор курса по Продакт менеджменту для начинающих продактов - обучила и выпустила 75 человек. Выпускница программы Techwomen (стажировка в Линкедин), делегат программы Open World, участника программы акселерации для женщин лидеров в финтехе Rise Up. Магистратура по Инновациям и Предпринимательству Политехнического университета Милана и Школы Экономики и Бизнеса Солвей в Бельгии"
   },
   {
     "id": 6,
     "name": "Равшан Ходжиматов",
     "company": {
-      "name": "Etwiklerburg",
-      "designation": "Software Engineer"
+      "name": "Etwiklerburg"
     },
-    "image": "",
-    "bio": ""
+    "image": "ravshan.jpg",
+    "bio": "Software Engineer в Entwicklerburg LLC с 7-летним стажем в разработке и анализе данных. Основная специализация — компьютерные симуляции сложных систем. Работал над проектами алгоритмического трейдинга, робоэдвайзинга, разрабатывал симуляции крипто-токенов, финансовых инвестиций, и анализа сетей. Работал в комнаде исследовательских групп в University of Klagenfurt в Австрии и Bogazici University в Турции."
   },
   {
     "id": 7,
     "name": "Михаил Васильев",
     "company": {
-      "name": "Etwiklerburg",
-      "designation": "Software Engineer"
+      "name": "Etwiklerburg"
     },
-    "image": "",
-    "bio": ""
+    "image": "mikhail.png",
+    "bio": "Software engineer и backend разработчик в Entwicklerburg. 2 года опыта коммерческой разработки в сфере финтеха и 2 года в сфере разработки для математических моделей. Бакалавр в сфере прикладной математики и информатики"
   },
   {
     "id": 8,
     "name": "Алиёр Акрамов",
     "company": {
-      "name": "Interkit",
-      "designation": "Tech Lead"
+      "name": "Interkit"
     },
-    "image": "",
-    "bio": ""
+    "image": "alier.jpeg",
+    "bio": "Алиёр Акрамов - опытный разработчик мобильных приложений с более чем 7-летним стажем. Занимал позиции ведущего разработчика и руководителя мобильных отделов, успешно управляя командами и планируя проекты. Обширный опыт во всех аспектах разработки приложений - от архитектуры до оптимизации и добавления новых функций. Работал с крупными компаниями, включая Reddit, где активно способствовал улучшению пользовательского опыта и функционала приложения. Кроме этого, является страстным любителем фотографии и путешествий, что помогает ему видеть проблемы и задачи разработки с новой, креативной перспективы. В настоящее время сосредоточен на новых проектах и развитии в других сферах разработки."
   },
   {
     "id": 9,
     "name": "Дмитрий Зюзин",
     "company": {
-      "name": "Freelance",
-      "designation": "Employee"
+      "name": "Freelance"
     },
-    "image": "",
-    "bio": ""
+    "image": "dmitry.png",
+    "bio": "Senior Asp Net Core Developer, ex-CTO DarygerKg, ex-CIO Smart Bus Media, ex-CEO Ziuzin Labs, на текущий момент занимаюсь IT-консалтом в частном порядке. Более 12 лет в IT. Последний раз был на GDG в 2015м, с тех пор успел повариться в более чем 10 крупных и средних B2B конфликтах, стараюсь придерживаться принципов Lean и KISS, при желании умею в стандартизацию."
   },
   {
     "id": 10,
     "name": "Тилек Мамутов",
     "company": {
-      "name": "Outtalent",
-      "designation": "Tech Lead"
+      "name": "Outtalent"
     },
-    "image": "",
-    "bio": ""
+    "image": "tilek.jpg",
+    "bio": "CEO of Outtalent, a startup and a community that helps outstanding engineers get jobs at companies like Google. Previously, he worked at Google where was a Project Lead at Google X and the first Google's representative in Central Asia."
   },
   {
     "id": 11,
-    "name": "David Varva",
+    "name": "David Vávra",
     "company": {
-      "name": "Škoda Auto (Czech)",
-      "designation": "Employee"
+      "name": "Škoda Auto (Czech)"
     },
-    "image": "",
-    "bio": ""
+    "image": "david.jpg",
+    "bio": "Lead Android Engineer at Škoda Auto, based in Czechia, EU with over 10 years of experience in Android development. Google Developer Expert for Android. I also manage my own app Settle Up and I love open-source, electric cars and space exploration."
   },
   {
     "id": 12,
     "name": "Клара Абдукова",
     "company": {
-      "name": "Mad Devs",
-      "designation": "Employee"
+      "name": "Mad Devs"
     },
-    "image": "",
-    "bio": ""
+    "image": "klara.png",
+    "bio": "6+ лет опыта в HR/Talent Manegement, из них 4 года в IT HR. Я HR, который не занимается рекрутингом и документами. Основное направление: построение внутренних процессов в компании. Из завершенных: онбординг и оффбординг. В данный момент занимаюсь развитием направления - грейдинг сотрудников. Выступаю в роли ментора и тимлида. Высшее психологическое образование, дипломированный психотерапевт."
   },
   {
     "id": 13,
     "name": "Улан Эркинбаев",
     "company": {
-      "name": "Optima Bank",
-      "designation": "Employee"
+      "name": "Optima Bank"
     },
-    "image": "",
-    "bio": ""
+    "image": "ulan.jpg",
+    "bio": "Опытный разработчик с 5-летним стажем в ведущих компаниях, включая Optima Bank, Blogman, Mail.Ru и EVRAZ. Специализируется на Kotlin Multiplatform, Android, Jetpack Compose, Coroutines, Clean Architecture, Koin и RxJava 2."
   },
   {
     "id": 14,
     "name": "Федор Тихонов",
     "company": {
-      "name": "Optima Bank",
-      "designation": "Employee"
+      "name": "Optima Bank"
     },
-    "image": "",
-    "bio": ""
+    "image": "fedor.jpg",
+    "bio": "Head of Mobile Development Оптима Банка с опытом управления командой разработки более 5 лет, Senior IOS developer в бэкграунде (недалеком прошлом), люблю технологии разработки и участвую в развитии Kotlin Multiplatfom в наших краях. Так же активно интересуюсь новыми технологиями в data science, data warehouse. Высоконагруженными высокопроизводительными сервисами. И развиваю их в рамках своего повседневного творчества (именно это коллеги называют работой)"
   },
   {
     "id": 15,
     "name": "Оман Абышев",
     "company": {
-      "name": "Kanda CA",
-      "designation": "PM"
+      "name": "Kanda CA"
     },
-    "image": "",
-    "bio": ""
+    "image": "oman.jpg",
+    "bio": "Hi! My name is Oman. I'm working as Vice CTO at Kanda CA. I have 6+ years of experience in the field of Management, Consulting, and Business Development"
   },
   {
     "id": 16,
     "name": "Ахмад Оунесоуд",
     "company": {
-      "name": "Bemint",
-      "designation": "Employee"
+      "name": "Bemint"
     },
-    "image": "",
-    "bio": ""
+    "image": "akhmad.jpeg",
+    "bio": "Программист с большим опытом создания продуктов с нуля. На протяжении всей своей карьеры создавал айти продукты, систему управления экосистемой супер- и мини-приложений, кошельки для криптокредитования и также продукты в веб3. Люблю работать с новейшими технологиями и внедрять новейшие функции, которые помогают людям создавать отличные продукты и услуги, сейчас развиваю свою студию по разработки и делюсь своим опытом, как подходить к продукту как бизнесу первоначально и как айти продукту второстепенно."
   },
   {
     "id": 17,
     "name": "Тимур Болотов",
     "company": {
-      "name": "Kaspi.kz",
-      "designation": "Employee"
+      "name": "Kaspi.kz"
     },
-    "image": "",
-    "bio": ""
+    "image": "timur.jpg",
+    "bio": "Software Engineer at Kaspi, originally from Kyrgyzstan. Does frontend development and is a Amazon Opensearch Maintainer."
   },
   {
     "id": 18,
     "name": "Айбек Хашимов",
     "company": {
-      "name": "EFG",
-      "designation": "Employee"
+      "name": "EFG"
     },
-    "image": "",
-    "bio": ""
+    "image": "oibek.jpg",
+    "bio": "Backend Engineer с более чем 7-летним опытом работы в разработке программного обеспечения. В карьере основной акцент сделан на backend разработку, архитектуре систем."
   },
   {
     "id": 19,
     "name": "Мээрим Жанузакова",
     "company": {
-      "name": "Kanda CA",
-      "designation": "Senior QA Engineer"
+      "name": "Kanda CA"
     },
-    "image": "",
-    "bio": ""
+    "image": "meerim.png",
+    "bio": "Senior Software QA в компании Kanda CA, с опытом в IT сфере больше 6 лет, и Software QA Engineer около 5 лет. Специалист в Manual Testing и Automation. Со организатор GDG Bishkek 2019-2022 и амбассадор WTM KG. Сертифицированный специалист ISTQB Foundation. Ментор и преподаватель курса QA Introduction в кыргызстанских университетах."
   }
 ]
