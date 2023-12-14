@@ -45,6 +45,16 @@
     ]
   },
   {
+    "category_name": "Bronze Sponsors",
+    "sponsors": [
+      {
+        "name": "Dats Team",
+        "link": "https://dats.team/",
+        "logo": "dats.png"
+      }
+    ]
+  },
+  {
     "category_name": "Partners",
     "sponsors": [
       {
@@ -56,6 +66,41 @@
         "name": "KSSDA",
         "link": "https://www.instagram.com/kssda.kg",
         "logo": "kssda.png"
+      },
+      {
+        "name": "Technopark coworking",
+        "link": "https://www.jetbrains.com/",
+        "logo": "technopark.png"
+      },
+      {
+        "name": "Change Fitness",
+        "link": "https://www.instagram.com/kssda.kg",
+        "logo": "change.png"
+      },
+      {
+        "name": "Shoro",
+        "link": "https://www.jetbrains.com/",
+        "logo": "shoro.png"
+      },
+      {
+        "name": "Tamga massage",
+        "link": "https://www.instagram.com/kssda.kg",
+        "logo": "tamga.png"
+      },
+      {
+        "name": "TSUM Cinema",
+        "link": "https://www.jetbrains.com/",
+        "logo": "tsum.png"
+      },
+      {
+        "name": "Dodo Pizza",
+        "link": "https://www.jetbrains.com/",
+        "logo": "dodo.png"
+      },
+      {
+        "name": "Sengoku",
+        "link": "https://www.instagram.com/kssda.kg",
+        "logo": "sengoku.png"
       }
     ]
   }

@@ -45,7 +45,7 @@
                   </v-list-item-avatar>
                   <v-list-item-content>
                     <v-list-item-title
-                      class="mb-0"
+                      class="mb-1"
                       style="font-size: 150%; font-weight: 600"
                       >{{ item.name }}</v-list-item-title
                     >
@@ -54,8 +54,11 @@
                       class="mb-0"
                       style="font-size: 110%"
                     >
-                      <p class="mb-0">
+                      <p class="mb-1">
                         {{ item.company.name }}
+                      </p>
+                      <p v-if="item.company.designation" class="mb-0">
+                        {{ item.company.designation }}
                       </p>
                       <span>{{ item.community_title }}</span>
                     </v-list-item-subtitle>
@@ -75,7 +78,7 @@
 
               <speakerSocialMediaVue
                 class="pl-0 ml-0 mb-2"
-                :item="item.social"
+                :data="item.social"
               />
             </v-col>
           </v-row>

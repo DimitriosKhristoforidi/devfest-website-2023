@@ -1,20 +1,14 @@
 <template>
   <div>
-    <v-btn icon class="mr-1" target="_blank" :href="item?.linkedin" v-if="item?.linkedin?.length">
-      <v-icon>mdi-linkedin</v-icon>
-    </v-btn>
-    <v-btn icon class="mr-1" target="_blank" :href="item?.twitter" v-if="item?.twitter?.length">
-      <v-icon>mdi-twitter</v-icon>
-    </v-btn>
-    <v-btn icon class="mr-1" target="_blank" :href="item?.web" v-if="item?.web?.length">
-      <v-icon>mdi-web</v-icon>
+    <v-btn v-for="(item, index) in data" :key="index" icon class="mr-1" target="_blank" :href="item?.link">
+      <v-icon>mdi-{{ item.type }}</v-icon>
     </v-btn>
   </div>
 </template>
 
 <script>
 export default {
-  props: ["item"],
+  props: ["data"],
   data: () => ({}),
 };
 </script>

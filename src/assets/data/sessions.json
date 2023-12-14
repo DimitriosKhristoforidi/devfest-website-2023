@@ -86,16 +86,6 @@
     "speakers": [9]
   },
   {
-    "id": 8,
-    "slide": "",
-    "title": "Как разработчику заработать миллион долларов?",
-    "format": "Day 1",
-    "date": "Dec 17, 2023",
-    "timeDuration": "40",
-    "room": 0,
-    "speakers": [10]
-  },
-  {
     "id": 9,
     "slide": "",
     "title": "New pickers for Android app: photo picker & share sheet",
@@ -103,7 +93,7 @@
     "format": "Day 1",
     "date": "Dec 17, 2023",
     "timeDuration": "40",
-    "room": 1,
+    "room": 0,
     "speakers": [11]
   },
   {
@@ -167,7 +157,7 @@
     "format": "Day 1",
     "date": "Dec 17, 2023",
     "timeDuration": "40",
-    "room": 2,
+    "room": 1,
     "speakers": [18]
   },
   {

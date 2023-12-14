@@ -67,7 +67,7 @@
 
               <speakerSocialMediaVue
                 class="pl-0 ml-0 mb-2"
-                :item="item.social"
+                :data="item.social"
               />
 
               <div v-if="speakerSessions.length">

@@ -1,60 +1,91 @@
 [
   {
-    "id": "0",
+    "id": 0,
     "name": "Kalicha Malabekova",
     "company": {
-      "name": "BTS Digital"
+      "name": "BTS Digital",
+      "designation": "GDG Organizer, WTM Ambassador"
     },
-    "image": "",
-    "bio": "Kalicha is a product delivery manager at a growing startup and IT company in Kazakhstan(remote) and also GDG Bishkek co-lead. She has bachelor's degree in Hardware Engineering from Kyrgyz State Technical University in 2019. Kalicha started her career from being a project manager assistant and she has more than 4 years of successful experience. She also loves to organize IT events, which can help to build the hard IT community in Kyrgyzstan",
-    "social": {
-      "linkedin": "https://www.linkedin.com/in/kalicha-malabekova-02357a103/"
-    },
+    "image": "kalicha.jpg",
+    "bio": "Product delivery manager at a growing startup and IT company in Kazakhstan(remote) and also GDG Bishkek co-lead. She has bachelor's degree in Hardware Engineering from Kyrgyz State Technical University in 2019. Kalicha started her career from being a project manager assistant and she has more than 4 years of successful experience. She also loves to organize IT events, which can help to build the hard IT community in Kyrgyzstan",
+    "social": [
+      {
+        "type": "linkedin",
+        "link": "https://www.linkedin.com/in/kalicha-malabekova-02357a103/"
+      }
+    ],
     "type": "Core"
   },
   {
-    "id": "1",
+    "id": 1,
     "name": "Maria Zaichenko",
     "company": {
-      "name": "Mad Devs"
+      "name": "Mad Devs",
+      "designation": "GDG Organizer"
     },
-    "image": "",
+    "image": "maria.png",
     "type": "Core"
   },
   {
-    "id": "2",
+    "id": 2,
     "name": "Feruza Asanova",
     "company": {
-      "name": "Mancho Devs"
+      "name": "Mancho Devs",
+      "designation": "GDG Organizer"
     },
-    "image": "",
+    "image": "feruza.png",
     "type": "Core"
   },
   {
-    "id": "3",
+    "id": 3,
     "name": "Aizirek Bolot",
     "company": {
-      "name": "Attract Group"
+      "name": "Attract Group",
+      "designation": "GDG Organizer, Project Manager"
     },
-    "image": "",
+    "image": "aizirek.png",
     "type": "Core"
   },
   {
-    "id": "4",
+    "id": 6,
     "name": "Dmitrii Khristoforidi",
     "company": {
-      "name": "EPAM Systems"
+      "name": "EPAM Systems",
+      "designation": "GDG Organizer, Software Engineer"
     },
     "image": "dmitrii.jpg",
+    "bio": "Frontend Software Engineer with 3+ years experience. Has bachelor's degree in Computer Science from Kyrgyz State Technical University in 2020",
+    "social": [
+      {
+        "type": "linkedin",
+        "link": "https://www.linkedin.com/in/dimitrios-khristoforidi/"
+      },
+      {
+        "type": "instagram",
+        "link": "https://instagram.com/dimitrios_khristoforidi"
+      }
+    ],
     "type": "Core"
   },
   {
-    "id": "5",
-    "name": "Maria Zaichenko",
+    "id": 7,
+    "name": "Abakirova Elizat",
     "company": {
-      "name": "Mad Devs"
+      "name": "TimelySoft",
+      "designation": "GDG organizer, TimelySoft (Middle .NET developer)"
     },
-    "image": "",
+    "image": "elizat.png",
+    "bio": "I love cats, playing the electric guitar and  I'm a secretive waterbender",
+    "social": [
+      {
+        "type": "linkedin",
+        "link": "https://www.linkedin.com/in/elizat-abakirova-b493aa222/"
+      },
+      {
+        "type": "instagram",
+        "link": "https://www.instagram.com/meduzaw/"
+      }
+    ],
     "type": "Core"
   }
 ]
