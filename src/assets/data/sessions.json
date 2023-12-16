@@ -170,5 +170,15 @@
     "timeDuration": "40",
     "room": 2,
     "speakers": [19]
+  },
+  {
+    "id": 17,
+    "slide": "",
+    "title": "Workshop: State in Jetpack Compose",
+    "format": "Day 1",
+    "date": "Dec 17, 2023",
+    "timeDuration": "40",
+    "room": 2,
+    "speakers": [11]
   }
 ]

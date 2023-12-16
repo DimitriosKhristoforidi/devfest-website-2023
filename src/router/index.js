@@ -15,6 +15,14 @@ const routes = [
     }
   },
   {
+    path: '/map',
+    name: 'map',
+    component: () => import(/* webpackChunkName: "speakers" */ '../views/MapPage.vue'),
+    meta: {
+      title: 'Map'
+    }
+  },
+  {
     path: '/speakers',
     name: 'speakers',
     component: () => import(/* webpackChunkName: "speakers" */ '../views/SpeakersPage.vue'),

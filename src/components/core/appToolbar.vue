@@ -45,6 +45,17 @@
           >{{ page.name }}</v-btn
         >
       </template>
+      <v-btn
+        rounded
+        text
+        small
+        class="mr-1"
+        color="primary"
+        target="_blank"
+        href="https://boson-higgs.link/"
+        style="text-transform: none; font-size: 80%; font-weight: 500"
+        >Boson Higgs</v-btn
+      >
     </div>
     <v-spacer></v-spacer>
     <div class="hidden-sm-and-down google-font">
@@ -53,7 +64,7 @@
         rounded
         target="_blank"
         color="primary"
-        v-if="devfestInfo.registration.status==1"
+        v-if="devfestInfo.registration.status == 1"
         :href="devfestInfo.registration.link"
         style="text-transform: none; font-size: 80%; font-weight: 500"
         >Buy ticket</v-btn
@@ -61,8 +72,8 @@
     </div>
   </v-app-bar>
 </template>
-  
-  <script>
+
+<script>
 import devfestJSON from "@/assets/data/devfests.json";
 import navbarJSON from "@/assets/data/navbar.json";
 export default {
@@ -77,6 +88,5 @@ export default {
   },
 };
 </script>
-  
-  <style>
-</style>
+
+<style></style>

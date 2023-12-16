@@ -1,4 +1,3 @@
-  
 <template>
   <v-navigation-drawer v-model="drawer" app width="300px" temporary>
     <v-list-item>
@@ -13,17 +12,32 @@
 
     <v-list dense nav>
       <template v-for="(page, index) in pages">
-        <v-list-item :to="page.path" class="google-font my-0 py-0" color="blue" :key="index">
+        <v-list-item
+          :to="page.path"
+          class="google-font my-0 py-0"
+          color="blue"
+          :key="index"
+        >
           <v-list-item-content>
-            <v-list-item-title>{{page.name}}</v-list-item-title>
+            <v-list-item-title>{{ page.name }}</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
       </template>
+      <v-list-item
+        target="_blank"
+        href="https://boson-higgs.link/"
+        class="google-font my-0 py-0"
+        color="blue"
+      >
+        <v-list-item-content>
+          <v-list-item-title>Boson Higgs</v-list-item-title>
+        </v-list-item-content>
+      </v-list-item>
     </v-list>
   </v-navigation-drawer>
 </template>
-  
-  <script>
+
+<script>
 import navbarJSON from "@/assets/data/navbar.json";
 import devfestJSON from "@/assets/data/devfests.json";
 export default {
@@ -44,5 +58,5 @@ export default {
   },
 };
 </script>
-  
-  <style></style>
+
+<style></style>
